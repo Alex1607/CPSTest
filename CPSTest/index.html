@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pluoi | CPS Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/defaultstyle.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
+</head>
+
+<body onload="load()">
+    <div class="shadowdiv">
+        <h3 class="center">
+            <b>CPS Test</b>
+        </h3>
+        <p class="inline">
+            Klicke 10 Sekunden lang, so schnell wie es dir möglich ist unten auf den Knopf. Im anschluss erhällst du
+            eine Ergebniss mit Link welchen du teilen kannst.
+        </p>
+    </div>
+    <br>
+    <div class="shadowdiv" id="zwischenErgebniss">
+        <div class="center">
+            <p id="infotext">Fange an zu Klicken um deinen CPS hier zu sehen.</p>
+            <p id="klicks"></p>
+            <p id="kps"></p>
+        </div>
+    </div>
+    <br>
+    <div class="shadowdiv" id="ergebniss">
+        <canvas id="result" width="420" height="220"></canvas>
+        <p onclick="upload()" id="uploader" class="rounded-button center">Hochladen?</p>
+    </div>
+    <br>
+    <div class="alert alert-info" id="link"></div>
+    <br>
+    <button class="rounded-button" id="clicker" onclick="count()">
+        <b>Hier Klicken</b>
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

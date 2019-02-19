@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://pluoi.com/CPSTest/assets/roboto.woff);
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('Roboto-Thin.woff');
+}
+
+html {
+    background: url(background.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color:rgb(70, 81, 146);
+}
+
+p {
+    color: rgb(35, 35, 35);
+}
+
+.center {
+    text-align: center;
+}
+
+.disclaimer {
+    font-size: xx-small;
+}
+
+.alert {
+    color: white;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: .5em;
+    border-radius: .5em;
+    box-shadow: 0 0 2px #00000080;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.alert-success {
+    background-color: #43A047;
+}
+
+.alert-error {
+    background-color: #F44336;
+}
+
+.alert-info {
+    background-color: rgb(54, 98, 244);
+}
+
+*:focus {
+    outline: none;
+}
+
+.shadowdiv {
+    background: white;
+    padding: 1em;
+    box-shadow: 0 0 2px #00000080;
+    border-radius: 1em;
+}
+
+.divider {
+    width: 10em;
+    border-bottom: none;
+    border-top-color: #bdbdbd;
+}
+
+.rounded-button {
+    margin: 0 auto;
+    background: #2196F3;
+    border-radius: 2.75em;
+    padding: 0.5em 3em;
+    border: none;
+    box-shadow: 0 0 4px 0px #00000080;
+    font-size: unset;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.title {
+    font-size: xx-large;
+    margin: .5em;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.description {
+    font-weight: 500;
+    font-family: Roboto;
+}

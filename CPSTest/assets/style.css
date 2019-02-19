@@ -1,0 +1,152 @@
+.shadowdiv {
+    max-width: 30em;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#infotext {
+    text-align: center;
+}
+
+.inline {
+    text-align: justify;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.rounded-button {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 1.5em;
+}
+
+#result {
+    margin: auto;
+    display: block;
+}
+
+#klicks {
+    margin: 0;
+}
+
+#kps {
+    margin: 0;
+}
+
+#clicker {
+    padding: 2.5em;
+    width: 20em;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.undertext {
+    position: absolute;
+    font-size: 13px;
+    font-family: Roboto;
+    right: 1em;
+    left: 1em;
+    top: 28em;
+    color: #505050;
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.inputfield {
+    border-radius: 0.5em;
+    box-shadow: 0 0 2px 0px #00000080;
+    border: none;
+    font-size: x-large;
+    margin-bottom: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+.submit {
+    border-radius: 0.25em;
+    padding: 0.5em 1em;
+    box-shadow: 0 0 2px 0px black;
+    float: right;
+}
+
+.forgotpassword {
+    font-family: Roboto;
+    float: left;
+    font-size: smaller;
+    padding: .6em 5px;
+    color: rgb(70, 81, 146) !important;
+}
+
+.marginbutton {
+    margin-bottom: 2.5em;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 0px #f75454;
+    animation: pulsate 1s ease-out infinite;
+}
+
+@media only screen and (max-width: 900px) {
+    .shadowdiv {
+        width: 90%
+    }
+}
+
+.invalid {
+    box-shadow: 0 0 5px 0px #f75454;
+    animation: pulsate 1s ease-out infinite;
+}
+
+#uploader {
+    background-color: #43A047;
+    widows: 50%;
+}
+
+#link {
+    width: 25em;
+}
+
+.divider {
+    margin-bottom: 1.5em;
+    border-color: white;
+}
+
+.twofainfo {
+    font-size: large;
+    color: rgb(124, 124, 124);
+    padding: .3em 5px;
+    cursor: pointer;
+}
+
+.thinText {
+    font-family: RobotoThin;
+    font-weight: 600;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div::selection {
+    background: #ffffff;
+}
+
+div::-moz-selection {
+  background: #ffffff;
+}
